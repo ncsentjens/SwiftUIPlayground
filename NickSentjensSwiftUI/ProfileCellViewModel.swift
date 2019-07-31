@@ -31,7 +31,7 @@ struct ProfileCell : View {
             VStack(alignment: .leading,
                    spacing: 12) {
                     Text(self.viewModel.name)
-                        .font(.title)
+                        .font(.title).color(.red)
                         .bold()
                         .minimumScaleFactor(0.6)
                     Text(self.viewModel.jobTitle)
